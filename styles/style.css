@@ -11,8 +11,6 @@
   color: var(--text-color);
 }
 
-/* --------------ССЫЛКИ----------- */
-
 .links {
   text-shadow: 1px 1px 0 var(--accent-color);
   outline-color: transparent;
@@ -322,8 +320,7 @@ main {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
-@media (max-width: 1024px) {
-}
+
 
 @media (max-width: 768px) {
   .header {
