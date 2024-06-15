@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
     <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="icon" href="./images/favicon.ico" />
     <link rel="icon" href="./images/favicon.svg" />
     <link rel="mobile-icon" href="./images/mobile-icon.png" />
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="decorated-el" aria-hidden="true"></div>
       <nav class="header__theme-menu">
+        <div class="decorated-el" aria-hidden="true"></div>
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
@@ -45,7 +45,6 @@
           </li>
         </ul>
       </nav>
-
       <h1 class="header__title">no focus</h1>
       <p class="header__description title-decor title_dark">
         Что делать, когда не можешь делать ничего
@@ -56,12 +55,12 @@
 
     <main>
       <section class="about">
-        <div class="about__card1">
-          <h3 class="about__title question">
+        <div class="about__card about-focus">
+          <h2 class="about__title question">
             Почему сосредоточиться так сложно
-          </h3>
+          </h2>
         </div>
-        <div class="about__card2">
+        <div class="about__card about-multitasking">
           <h3 class="section-title title-decor title_dark">Многозадачность</h3>
           <p class="section-text">
             Особенно сложно сосредоточиться, когда задач много и все они —
@@ -81,8 +80,8 @@
             устаём.
           </p>
         </div>
-        <div class="about__card3">
-          <h2 class="section-title title-decor title_dark">Дофамин</h2>
+        <div class="about__card about-dopamine">
+          <h3 class="section-title title-decor title_dark">Дофамин</h3>
           <p class="section-text">
             С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей
             невозможности сосредоточиться замешана и полная противоположность
@@ -96,12 +95,12 @@
         </div>
       </section>
       <section class="example">
-        <div class="example__card1">
-          <h3 class="example__title question">
+        <div class="example__card example-concentration">
+          <h2 class="example__title question">
             Что снижает концентрацию внимания?
-          </h3>
+          </h2>
         </div>
-        <div class="example__card2">
+        <div class="example__card example-multitasking">
           <h3 class="section-title title-decor title_dark">Многозадачность</h3>
           <p class="section-text">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -112,7 +111,7 @@
             не давать ей отдохнуть.
           </p>
         </div>
-        <div class="example__card3">
+        <div class="example__card example-food">
           <h3 class="section-title title-decor title_dark">Еда</h3>
           <p class="section-text">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -123,7 +122,7 @@
             больше быстрых углеводов.
           </p>
         </div>
-        <div class="example__card4">
+        <div class="example__card example-gadgets">
           <h3 class="section-title title-decor title_dark">Гаджеты</h3>
           <p class="section-text">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -137,21 +136,21 @@
         </div>
       </section>
       <section class="advice">
-        <div class="advice__card1">
-          <h3 class="advice-title question">
+        <div class="advice__card advice-fish">
+          <h2 class="advice-title question">
             Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
             секунд)
-          </h3>
+          </h2>
         </div>
-        <div class="advice__card2">
+        <div class="advice__card advice-simple">
           <h3 class="advice-title title-decor title_dark">
             5 простых (на самом деле не очень) советов
           </h3>
         </div>
-        <div class="advice__card3">
-          <h3 class="advice-subtitle title-decor title_dark">
+        <div class="advice__card advice-sky">
+          <h4 class="advice-subtitle title-decor title_dark">
             Представьте небо и облака
-          </h3>
+          </h4>
           <p class="section-text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -163,10 +162,10 @@
             проблемах из будущего.
           </p>
         </div>
-        <div class="advice__card4">
-          <h3 class="advice-subtitle title-decor title_dark">
+        <div class="advice__card advice-music">
+          <h4 class="advice-subtitle title-decor title_dark">
             Включите музыку
-          </h3>
+          </h4>
           <p class="section-text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -174,8 +173,8 @@
             попробовать включить плейлист в «белым шумом» или нейромузыкой.
           </p>
         </div>
-        <div class="advice__card5">
-          <h3 class="advice-subtitle title-decor title_dark">Прогуляйтесь</h3>
+        <div class="advice__card advice-walk">
+          <h4 class="advice-subtitle title-decor title_dark">Прогуляйтесь</h4>
           <p class="section-text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a
@@ -188,11 +187,11 @@
             просмотра городских пейзажей она наоборот понижается. Можно
             совместить прогулку с физическими упражнениями или бегом — так в
             мозг поступит ещё больше кислорода и он будет лучше работать. Но и
-            простая двадцатиминутная прогулка — тоже отличный вариант. показал
+            простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
         </div>
-        <div class="advice__card6">
-          <h3 class="advice-subtitle title-decor title_dark">Хорошо ешьте</h3>
+        <div class="advice__card advice-food">
+          <h4 class="advice-subtitle title-decor title_dark">Хорошо ешьте</h4>
           <p class="section-text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -200,8 +199,8 @@
             фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
           </p>
         </div>
-        <div class="advice__card7">
-          <h3 class="advice-subtitle title-decor title_dark">Читайте</h3>
+        <div class="advice__card advice-book">
+          <h4 class="advice-subtitle title-decor title_dark">Читайте</h4>
           <p class="section-text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -212,41 +211,41 @@
       </section>
       <section class="pictures">
         <div class="pictures__cards">
-          <h3 class="pictures__title title-decor title_dark">
+          <h2 class="pictures__title title-decor title_dark">
             А можно в картинках?
-          </h3>
-          <div class="pictures__card1">
+          </h2>
+          <div class="pictures__card pictures-sunset">
             <img
               src="./images/sunset.png"
-              alt="sunset"
+              alt="Солнце в закате"
               class="pictures__card-pic"
             />
           </div>
-          <div class="pictures__card2">
+          <div class="pictures__card pictures-ice-cream">
             <img
               src="./images/ice-cream.png"
-              alt="ice-cream"
+              alt="антропоморфный десерт"
               class="pictures__card-pic"
             />
           </div>
-          <div class="pictures__card3">
+          <div class="pictures__card pictures-tape">
             <img
               src="./images/tape.png"
-              alt="tape"
+              alt="аудиокассета 90-х"
               class="pictures__card-pic"
             />
           </div>
-          <div class="pictures__card4">
+          <div class="pictures__card pictures-books">
             <img
               src="./images/books.png"
-              alt="books"
+              alt="собрание сочинений"
               class="pictures__card-pic"
             />
           </div>
-          <div class="pictures__card5">
+          <div class="pictures__card pictures-street">
             <img
               src="./images/street.png"
-              alt="street"
+              alt="урбанистический пейзаж"
               class="pictures__card-pic"
             />
           </div>
