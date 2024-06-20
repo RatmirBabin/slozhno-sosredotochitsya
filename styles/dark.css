@@ -23,8 +23,8 @@
 
   .decorated-el {
     position: absolute;
-    top: 0px;
-    right: 28px;
+    top: 21px;
+    right: 49px;
   }
 
   .decorated-el::before {
@@ -41,8 +41,8 @@
   .decorated-el::after {
     position: absolute;
     content: "";
-    top: 8px;
-    right: -18px;
+    top: 7px;
+    right: -17px;
     height: 9px;
     width: 9px;
     border-radius: 50%;
@@ -92,6 +92,14 @@
   .footer__title {
     color: var(--header__title-color);
     text-shadow: 4px 4px 0 var(--accent-color);
+  }
+
+  @media (max-width: 500px) {
+    .decorated-el {
+      position: absolute;
+      top: 11px;
+      right: 39px;
+    }
   }
 }
 

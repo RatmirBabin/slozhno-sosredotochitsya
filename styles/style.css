@@ -8,11 +8,6 @@
   background-size: cover;
   max-width: 1024px;
   color: var(--text-color);
-  *,
-  *::before,
-  *::after {
-    outline: 1px solid red;
-  }
 }
 
 .links {
@@ -127,6 +122,7 @@
 .title-decor {
   width: 100%;
   font-size: 18px;
+  line-height: 23.4px;
   background-color: var(--accent-color);
 }
 
