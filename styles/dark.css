@@ -41,8 +41,8 @@
   .decorated-el::after {
     position: absolute;
     content: "";
-    top: 7px;
-    right: -17px;
+    top: 8px;
+    right: -18px;
     height: 9px;
     width: 9px;
     border-radius: 50%;
